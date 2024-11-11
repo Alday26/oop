@@ -1,0 +1,163 @@
+body {
+    background-color: #232222;
+    font-family: 'Poppins', sans-serif;
+}
+
+.LOG-IN {
+    background-color: #232222;
+}
+
+.overlap-group {
+    background-color: #896cfe;
+}
+
+.LOGIN-YOUR-JOURNEY {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #e2f163;
+    font-size: 3rem;
+}
+
+.form-label {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.form-control {
+    height: 60px;
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+    background-color: #e2f163;
+    border-color: #e2f163;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+}
+
+.btn-primary:hover {
+    background-color: #d1e052;
+    border-color: #d1e052;
+    color: #000000;
+}
+
+.forgot-password {
+    color: #000000;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.back-button,
+.sign-up-button {
+    position: absolute;
+    top: 20px;
+    color: #e2f163;
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+}
+
+.back-button {
+    left: 20px;
+}
+
+.sign-up-button {
+    right: 20px;
+}
+
+.welcome-text {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #e2f163;
+}
+
+.welcome-text h2 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.active-body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3rem;
+    position: relative;
+    display: inline-block;
+}
+
+.express {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    right: -60px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.dont-have-account {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.span {
+    color: #ffffff;
+}
+
+.sign-up-link {
+    color: #e2f163;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .LOGIN-YOUR-JOURNEY {
+        font-size: 2rem;
+    }
+
+    .form-label {
+        font-size: 1.2rem;
+    }
+
+    .form-control {
+        height: 50px;
+        font-size: 1rem;
+    }
+
+    .btn-primary {
+        font-size: 1.2rem;
+    }
+
+    .forgot-password {
+        font-size: 1rem;
+    }
+
+    .welcome-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .active-body {
+        font-size: 2rem;
+    }
+
+    .express {
+        width: 40px;
+        right: -50px;
+    }
+
+    .dont-have-account {
+        font-size: 1rem;
+    }
+}
